@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <script type="text/javascript" src="jquery-1.11.2.js"></script>
+    <meta charset="utf-8">
+	<title>Akyuna Akish</title>
+	<link rel="stylesheet" type="text/css" href="style.css" media="screen" />
+    </head>
+  <body>
+    <h1>Akyuna's Precourse Page 1</h1>
+	<head>
+<style>
+body {
+    background-color: blue;
+}
+
+h1 {
+    background-color: #00ff00;
+}
+
+p {
+    background-color: rgb(255,0,255);
+}
+</style>
+</head>
+    <p>Hello, my name is Akyuna.
+I've lived in Las Vegas , California , Hawaii , briefly in Russia, 
+and now here in Boulder , Colorado with my wife. 
+I enjoy the outdoors and learning new things. </p>
+<p>
+<input type="text" id="myButton" />
+
+<script type="text/javascript">
+
+$(document).ready(function(){
+  // this code will run when the document has loaded
+  // and all elements are in place
+
+  $("#myButton").click(function(){
+    // this code will be run when the user clicks on
+    // the button we created above
+
+    $('#default').click(); // this calls the click event on #default
+
+    alert('Hello!'); // now it is finished
+  }); // close the click handler on #myButton
+
+  $('#Click Me !').click(function(){
+    // this code will be run when the user click on
+    // the element with id "default" OR (in this case)
+    // when the click event is triggered from clicking the
+    // button above.
+
+    alert('#Hello!');
+  }); // close the click handler on #default
+
+}); // close the document.ready code block.
+
+</script>
+
+</p>
+
+<p>
+<a href="Precourse Code 2.html"> Next Page</a>
+</p>
+  </body>
+</html>
+
+
